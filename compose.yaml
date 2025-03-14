@@ -6,3 +6,9 @@
       dockerfile: Hobbyshop.Api/Dockerfile
     ports:
       - "8081:8080"
+
+  hobbyshop.api-1:
+    image: hobbyshop.api-1
+    build:
+      context: .
+      dockerfile: Hobbyshop.Api/Dockerfile
