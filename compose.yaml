@@ -1,0 +1,6 @@
+﻿services:
+  hobbyshop.api:
+    image: hobbyshop.api
+    build:
+      context: .
+      dockerfile: Hobbyshop.Api/Dockerfile
