@@ -4,3 +4,5 @@
     build:
       context: .
       dockerfile: Hobbyshop.Api/Dockerfile
+    ports:
+      - "8081:8080"
